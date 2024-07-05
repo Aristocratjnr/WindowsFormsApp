@@ -1,5 +1,7 @@
 ﻿namespace ProfessionalWindowsFormsApp
 {
+    //This class is a partial class that is part of the Form1 class
+    
     partial class Form1
     {
         private System.ComponentModel.IContainer components = null;
