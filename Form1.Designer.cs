@@ -1,7 +1,7 @@
 ﻿namespace ProfessionalWindowsFormsApp
 {
     //This class is a partial class that is part of the Form1 class
-    
+
     partial class Form1
     {
         private System.ComponentModel.IContainer components = null;
@@ -166,7 +166,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Name = "Form1";
-            this.Text = "Professional Windows Forms App";
+            this.Text = "Windows Forms App";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
