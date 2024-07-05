@@ -26,28 +26,28 @@ namespace ProfessionalWindowsFormsApp
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(13, 30);
+            this.txtName.Location = new System.Drawing.Point(92, 30);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
             this.txtName.TabIndex = 0;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(13, 70);
+            this.txtEmail.Location = new System.Drawing.Point(92, 70);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
             this.txtEmail.TabIndex = 1;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(13, 110);
+            this.txtPhone.Location = new System.Drawing.Point(92, 110);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(100, 20);
             this.txtPhone.TabIndex = 2;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(13, 150);
+            this.btnSave.Location = new System.Drawing.Point(92, 150);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 23);
             this.btnSave.TabIndex = 3;
@@ -58,7 +58,7 @@ namespace ProfessionalWindowsFormsApp
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(13, 10);
+            this.lblName.Location = new System.Drawing.Point(92, 10);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(35, 13);
             this.lblName.TabIndex = 4;
@@ -67,7 +67,7 @@ namespace ProfessionalWindowsFormsApp
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(13, 50);
+            this.lblEmail.Location = new System.Drawing.Point(92, 50);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(32, 13);
             this.lblEmail.TabIndex = 5;
@@ -76,7 +76,7 @@ namespace ProfessionalWindowsFormsApp
             // lblPhone
             // 
             this.lblPhone.AutoSize = true;
-            this.lblPhone.Location = new System.Drawing.Point(13, 90);
+            this.lblPhone.Location = new System.Drawing.Point(92, 90);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(38, 13);
             this.lblPhone.TabIndex = 6;
