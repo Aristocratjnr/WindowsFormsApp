@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 namespace ProfessionalWindowsFormsApp
 {
+    // This class contains the event handlers for the form
     public partial class Form1 : Form
     {
         // Variables for the drawing canvas
