@@ -16,7 +16,7 @@ namespace ProfessionalWindowsFormsApp
             string password = txtPassword.Text;
 
             // Validate login (you can add more complex validation here)
-            if (username == "admin" && password == "password")
+            if (username == "aristo" && password == "junior1")
             {
                 this.Hide();
                 AddressBookForm addressBookForm = new AddressBookForm();
