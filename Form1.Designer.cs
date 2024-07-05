@@ -1,4 +1,4 @@
-﻿namespace ProfessionalWindowsFormsApp
+﻿namespace WindowsFormsApp
 {
     partial class Form1
     {
