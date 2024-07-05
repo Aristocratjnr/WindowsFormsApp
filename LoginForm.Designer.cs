@@ -24,14 +24,14 @@ namespace ProfessionalWindowsFormsApp
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(13, 30);
+            this.txtUsername.Location = new System.Drawing.Point(92, 30);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(100, 20);
             this.txtUsername.TabIndex = 0;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(13, 70);
+            this.txtPassword.Location = new System.Drawing.Point(92, 70);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 1;
@@ -39,7 +39,7 @@ namespace ProfessionalWindowsFormsApp
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(13, 110);
+            this.btnLogin.Location = new System.Drawing.Point(92, 110);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(100, 23);
             this.btnLogin.TabIndex = 2;
@@ -50,7 +50,7 @@ namespace ProfessionalWindowsFormsApp
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(13, 10);
+            this.lblUsername.Location = new System.Drawing.Point(92, 10);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(55, 13);
             this.lblUsername.TabIndex = 3;
@@ -59,7 +59,7 @@ namespace ProfessionalWindowsFormsApp
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(13, 50);
+            this.lblPassword.Location = new System.Drawing.Point(92, 50);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(53, 13);
             this.lblPassword.TabIndex = 4;
@@ -67,6 +67,8 @@ namespace ProfessionalWindowsFormsApp
             // 
             // LoginForm
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 161);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
@@ -74,6 +76,7 @@ namespace ProfessionalWindowsFormsApp
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
