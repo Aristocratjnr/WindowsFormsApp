@@ -1,10 +1,7 @@
 using System;
 using System.Windows.Forms;
-using ProfessionalWindowsFormsApp;
 
-//This is the main entry point for the application.
-
-namespace WindowsFormsApp
+namespace ProfessionalWindowsFormsApp
 {
     static class Program
     {
@@ -13,7 +10,7 @@ namespace WindowsFormsApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoginForm());
         }
     }
 }
