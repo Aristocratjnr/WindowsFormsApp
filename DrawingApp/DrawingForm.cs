@@ -37,5 +37,10 @@ namespace ProfessionalWindowsFormsApp
         {
             isDrawing = false;
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            pnlCanvas.Invalidate(); // Clear the panel
+        }
     }
 }
